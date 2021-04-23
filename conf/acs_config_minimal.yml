@@ -1,0 +1,9 @@
+---
+# (c) Copyright 2021 Hewlett Packard Enterprise Development LP
+# Refer acs_config_full.yaml or manual for documentation
+action: acs_configure
+config_data:
+   acs:
+      subsystem:
+        process:
+           primary_cpu: 0

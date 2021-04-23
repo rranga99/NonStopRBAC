@@ -1,0 +1,14 @@
+---
+#(c) Copyright 2021 Hewlett Packard Enterprise Development LP
+# Refer pdmi_pathmon_config_full.yaml or manual for documentation
+action: pathmon_remove
+node: default
+pathmon_name: $RRA
+config_data:
+  pdmi:
+    pathmon:
+      process:
+        primary_cpu: 0
+      control_file:
+        node: default
+        name: default
